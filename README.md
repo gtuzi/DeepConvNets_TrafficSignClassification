@@ -19,7 +19,7 @@ Performance of LeNet-5 implementation is also shown (in the notebook) as a basel
 
 # Files
 * TrafficSignClassifier_MainNotebook.ipynb : The complete implementation
-* Report.ipynb : self - explanatory
+* Report.ipynb / Report.html: self explanatory
 
 
 
