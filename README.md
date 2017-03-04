@@ -13,13 +13,18 @@ GTInception's performance on the German traffic data set [INI](http://benchmark.
 ![GTInception](GTInception.png)
 
 ### LeNet
-Performance of LeNet-5 implementation is also shown (see the notebook) as a baseline. Here LeNet-5 was also trained for 100 epochs and batch size of 150. 
+Performance of LeNet-5 implementation is also shown (in the notebook) as a baseline. Here LeNet-5 was also trained for 100 epochs and batch size of 150. 
+
+
+
+# Files
+* TrafficSignClassifier_MainNotebook.ipynb : The complete implementation
+* Report.ipynb : self - explanatory
+
+
 
 # CarND-LeNet-Lab
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
-
-An implementation of the LeNet-5 was provided with the initial lab material
-![LeNet-5 Architecture](lenet.png)
 
 
 ### Dependencies
