@@ -11654,8 +11654,10 @@ ul.typeahead-list > li > a {
 .highlight .mh { color: #666666 } /* Literal.Number.Hex */
 .highlight .mi { color: #666666 } /* Literal.Number.Integer */
 .highlight .mo { color: #666666 } /* Literal.Number.Oct */
+.highlight .sa { color: #BA2121 } /* Literal.String.Affix */
 .highlight .sb { color: #BA2121 } /* Literal.String.Backtick */
 .highlight .sc { color: #BA2121 } /* Literal.String.Char */
+.highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
 .highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
 .highlight .s2 { color: #BA2121 } /* Literal.String.Double */
 .highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
@@ -11666,9 +11668,11 @@ ul.typeahead-list > li > a {
 .highlight .s1 { color: #BA2121 } /* Literal.String.Single */
 .highlight .ss { color: #19177C } /* Literal.String.Symbol */
 .highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #0000FF } /* Name.Function.Magic */
 .highlight .vc { color: #19177C } /* Name.Variable.Class */
 .highlight .vg { color: #19177C } /* Name.Variable.Global */
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
+.highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
     </style>
 <style type="text/css">
@@ -11966,6 +11970,27 @@ div#notebook {
 <li><strong>Multiple general caution signs</strong> - repeated caution signs, but rotated. The net correctly determines the class. Spatial invariance at work, best captured by 2D convolutions. 
 <img src="images/Performance_GenCaution_Multiple.jpg" alt="GenCautMultiple"></li>
 </ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Results:">Results:<a class="anchor-link" href="#Results:">&#182;</a></h3><ul>
+<li>6 samples</li>
+<li>5 samples of known classes, </li>
+<li>1 sample unknown class. Dog prohibited from ... sign was not seen in training. Tested just to see how the net behaved.</li>
+</ul>
+<hr>
+<p>Using an arg_max{softmax output} decision, the network had perfect performance on the test set with known classes:</p>
+<ul>
+<li>Accuracy: 1.0 (5/5)</li>
+<li>Recall: 1.0 (5/5)</li>
+</ul>
+<p>The network output for the unknown class had high probability entropy, which can be used as a confidence hint.</p>
 
 </div>
 </div>
