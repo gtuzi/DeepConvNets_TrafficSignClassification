@@ -1,7 +1,10 @@
-This lab was completed for Udacity's nano-degree program for Self-Driving Vehicle (Semester 1) 
+# Employ deep convnets to perform traffic sign detection
+An existing topology (LeNet) and new network topology, leveraging the Inception architecture, was implemented and evaluated. Data used is the German traffic signs set [INI](http://benchmark.ini.rub.de/).
+
+*This lab was completed for Udacity's nano-degree program for Self-Driving Vehicle *
 
 ## GTInception
-For this lab I implemented the *Inception* topology based on the idea shown [here](https://arxiv.org/pdf/1409.4842.pdf). 
+The *Inception* topology first introduced and implemented in [GoogLeNet](https://arxiv.org/pdf/1409.4842.pdf). 
 
 ![Inception](Inception.png)
 
@@ -18,8 +21,9 @@ Performance of LeNet-5 implementation is also shown (in the notebook) as a basel
 
 
 # Files
-* TrafficSignClassifier_MainNotebook.ipynb : The complete implementation
-* Report.ipynb / Report.html: self explanatory
+
+* TrafficSignClassifier_MainNotebook.ipynb : implementation notebook
+* Report.ipynb / Report.html
 
 
 
